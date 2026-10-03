@@ -1,3 +1,6 @@
 @echo off
+echo Setting up Geordie AI Security Environment...
+python -m pip install streamlit pandas plotly scikit-learn
+echo Launching Geordie AI Web Interface...
 python -m streamlit run app.py --server.headless=false
 pause
