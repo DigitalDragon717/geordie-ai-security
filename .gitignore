@@ -3,5 +3,17 @@
 !.env.example
 __pycache__/
 *.py[cod]
+*$py.class
 .venv/
 venv/
+env/
+*.db
+*.sqlite
+*.sqlite3
+geordie_audit.db
+.DS_Store
+.idea/
+.vscode/
+*.log
+models/
+*.joblib
