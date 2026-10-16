@@ -42,13 +42,13 @@ This creates either “demo-ware” or risky tools. Geordie AI was built to be h
 These limitations are shown clearly in the interface so users (and judges) always know what the tool can and cannot claim.
 
 ## Tech Stack
-| Component              | Technology                          |
-|------------------------|-------------------------------------|
-| Frontend / Dashboard   | Streamlit + Plotly                  |
+| Component              | Technology                                      |
+|------------------------|-------------------------------------------------|
+| Frontend / Dashboard   | Streamlit + Plotly                              |
 | Machine Learning       | scikit-learn (Isolation Forest + Random Forest) |
-| Host Telemetry         | psutil                              |
-| Database               | SQLite                              |
-| Enforcement (Windows)  | netsh (with verification)           |
-| Language               | Python 3                            |
+| Host Telemetry         | psutil                                          |
+| Database               | SQLite                                          |
+| Enforcement (Windows)  | netsh (with verification)                       |
+| Language               | Python 3                                        |
 
 ## Project Structure
